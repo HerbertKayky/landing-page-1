@@ -1,100 +1,204 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function Motorac() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="bg-gray-100 min-h-screen">
+      {/* Header Section */}
+      <header className="bg-red-600 text-white py-6">
+        <div className="container mx-auto px-6 flex justify-between items-center">
+          <h1 className="text-3xl font-bold">Rogério Sputnik - Consultor Motorac</h1>
+          <nav>
+            <ul className="flex space-x-4">
+              <li>
+                <a href="#about" className="hover:underline">
+                  Sobre
+                </a>
+              </li>
+              <li>
+                <a href="#models" className="hover:underline">
+                  Modelos
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="hover:underline">
+                  Contato
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+      {/* Hero Section */}
+      <section
+        className="relative bg-cover bg-center h-screen bg-gray-300 text-white flex items-center justify-center"
+        style={{ backgroundImage: 'url("/honda.avif")' }}
+      >
+        {/* O overlay com o gradiente */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+        <div className="relative text-center backdrop-blur-md bg-white/0 p-8 rounded-lg">
+          <h2 className="text-5xl font-bold">Encontre a sua próxima Honda</h2>
+          <p className="mt-4 text-xl">
+            Compre sua moto dos sonhos com o melhor vendedor da Motorac Toritama
+          </p>
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#contact"
+            className="inline-block mt-8 px-6 py-3 bg-red-600 text-white rounded-lg shadow-lg hover:bg-red-700 transition"
           >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+            Entre em contato agora
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </section>
+
+      {/* About the Seller Section */}
+      <section id="about" className="py-16 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="text-center">
+            <h3 className="text-3xl font-bold">Sobre o Vendedor</h3>
+            <p className="mt-4 text-lg">
+              Com anos de experiência vendendo motos Honda, ofereço o melhor
+              atendimento e suporte para que você faça a escolha certa.
+            </p>
+          </div>
+          <div className="flex justify-center mt-10">
+            <img
+              src="/man-taking-selfie.jpg"
+              alt="Foto do vendedor"
+              className="rounded-full w-48 h-48 object-cover shadow-lg"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Models Section */}
+      <section id="models" className="py-16 bg-gray-100">
+        <div className="container mx-auto px-6">
+          <div className="text-center">
+            <h3 className="text-3xl font-bold">Modelos Disponíveis</h3>
+            <p className="mt-4 text-lg">
+              Escolha entre uma variedade de modelos Honda e encontre a moto
+              perfeita para você.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+            {/* Model 1 */}
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/pop.webp"
+                alt="Modelo Honda 1"
+                className="w-full h-48 object-cover  rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">Pop 110</h4>
+              <p className="mt-2 text-lg">
+                Uma moto versátil e robusta, perfeita para qualquer aventura.
+              </p>
+            </div>
+            {/* Model 2 */}
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/biz.webp"
+                alt="Modelo Honda 2"
+                className="w-full h-48 object-cover rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">Biz 125</h4>
+              <p className="mt-2 text-lg">
+                Desempenho e economia para o seu dia a dia na cidade.
+              </p>
+            </div>
+            {/* Model 3 */}
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/fan.webp"
+                alt="Modelo Honda 3"
+                className="w-full h-48 object-cover rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">Fan 160</h4>
+              <p className="mt-2 text-lg">
+                Com design arrojado e força para encarar qualquer terreno.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/bros.webp"
+                alt="Modelo Honda 3"
+                className="w-full h-48 object-cover rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">Bros 160</h4>
+              <p className="mt-2 text-lg">
+                Com design arrojado e força para encarar qualquer terreno.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/xre.webp"
+                alt="Modelo Honda 3"
+                className="w-full h-48 object-cover rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">XRE 190</h4>
+              <p className="mt-2 text-lg">
+                Com design arrojado e força para encarar qualquer terreno.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/sahara.webp"
+                alt="Modelo Honda 3"
+                className="w-full h-48 object-cover rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">Sahara 300</h4>
+              <p className="mt-2 text-lg">
+                Com design arrojado e força para encarar qualquer terreno.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/twister.webp"
+                alt="Modelo Honda 3"
+                className="w-full h-48 object-cover rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">Twister 300F</h4>
+              <p className="mt-2 text-lg">
+                Com design arrojado e força para encarar qualquer terreno.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/nc.webp"
+                alt="Modelo Honda 3"
+                className="w-full h-48 object-cover rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">NC 750X</h4>
+              <p className="mt-2 text-lg">
+                Com design arrojado e força para encarar qualquer terreno.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-16 bg-red-600 text-white">
+        <div className="container mx-auto px-6 text-center">
+          <h3 className="text-3xl font-bold">Entre em Contato</h3>
+          <p className="mt-4 text-lg">
+            Quer saber mais sobre algum modelo ou agendar um test ride? Fale
+            diretamente com o vendedor agora.
+          </p>
+          <div className="mt-10">
+            <a
+              href="https://wa.me/SEU_NUMERO"
+              className="inline-block px-6 py-3 bg-white text-red-600 rounded-lg shadow-lg hover:bg-gray-100 transition"
+            >
+              Fale pelo WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-400 py-6">
+        <div className="container mx-auto px-6 text-center">
+          <p>&copy; 2024 Motorac Honda - Todos os direitos reservados.</p>
+        </div>
       </footer>
     </div>
   );
