@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Rogério Sputnik - Motorac",
+  title: "Gustavo Igor - Motorac",
   description: "Criado por Herbert Kayky",
 };
 
