@@ -3,97 +3,21 @@ import Link from "next/link";
 
 import wppIcon from "/public/wppIcon.png";
 
-import SwiperComponent from "./components/SwiperComponent";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
+import Testimonials from "./components/Testimonials";
 
 export default function Motorac() {
   return (
     <div className="bg-gray-100 min-h-screen">
-      {/* Header Section */}
-      <header className="bg-[#C53030] text-white py-6">
-        <div className="container mx-auto px-6 flex justify-between items-center">
-          <h1 className="text-3xl font-medium">
-            Gustavo Igor - Consultor Motorac
-          </h1>
-          <nav>
-            <ul className="flex space-x-4">
-              <li>
-                <a href="#about" className="hover:underline">
-                  Sobre
-                </a>
-              </li>
-              <li>
-                <a href="#models" className="hover:underline">
-                  Modelos
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:underline">
-                  Contato
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
-      {/* Hero Section */}
-      <section
-        className="relative bg-cover bg-center h-screen bg-gray-300 text-white flex items-center justify-center"
-        style={{ backgroundImage: 'url("/honda.avif")' }}
-      >
-        {/* O overlay com o gradiente */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
-        <div className="relative text-center backdrop-blur-md bg-white/0 p-8 rounded-lg">
-          <h2 className="text-5xl font-bold">Encontre a sua próxima Honda</h2>
-          <p className="mt-4 text-xl">
-            Compre sua moto dos sonhos com o melhor vendedor da Motorac Toritama
-          </p>
-          <a
-            href="#contact"
-            className="inline-block mt-8 px-6 py-3 bg-[#C53030] text-white rounded-lg shadow-lg hover:bg-red-700 transition"
-          >
-            Entre em contato agora
-          </a>
-        </div>
-      </section>
+      <HeroSection />
 
-      {/* About the Seller Section */}
-      <section id="about" className="py-16 bg-gray-100">
-        <div className="container mx-auto px-6 flex flex-col max-w-4xl">
-          <div className="text-center">
-            <h3 className="text-3xl font-bold">Sobre mim</h3>
-            <p className="mt-4 text-lg">
-              Como especialista em motos Honda, ofereço um atendimento
-              personalizado e de qualidade para clientes em todo o Brasil.
-              Com mais de 400 clientes satisfeitos, meu objetivo é garantir que
-              você encontre a moto dos seus sonhos, seja através de consórcio,
-              financiamento ou à vista. Estou aqui para ajudar você a fazer a
-              melhor escolha e proporcionar a melhor experiência de compra!
-            </p>
-          </div>
-          <div className="flex justify-center mt-10">
-            <img
-              src="/man-taking-selfie.jpg"
-              alt="Foto do vendedor"
-              className="rounded-full w-48 h-48 object-cover shadow-lg"
-            />
-          </div>
-        </div>
-      </section>
+      <AboutSection />
 
-      <section id="testimonials" className="py-16 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="text-center">
-            <h3 className="text-3xl font-bold">Clientes Satisfeitos</h3>
-            <p className="mt-4 text-lg">
-              Veja alguns dos clientes felizes que compraram suas motos com
-              nossa ajuda.
-            </p>
-          </div>
-
-          <SwiperComponent />
-        </div>
-      </section>
+      <Testimonials />
 
       {/* Models Section */}
       <section id="models" className="py-16 bg-gray-100">
