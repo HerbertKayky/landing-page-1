@@ -8,7 +8,7 @@ import { ModelsSection } from "./components/ModelsSection";
 
 export default function Motorac() {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <>
       <Header />
       <HeroSection />
       <AboutSection />
@@ -16,6 +16,6 @@ export default function Motorac() {
       <ModelsSection />
       <ContactSection />
       <Footer />
-    </div>
+    </>
   );
 }

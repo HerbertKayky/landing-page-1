@@ -1,4 +1,3 @@
-// ContactSection.js
 import Image from "next/image";
 import Link from "next/link";
 import wppIcon from "/public/wppIcon.png";
