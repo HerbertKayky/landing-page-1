@@ -5,7 +5,7 @@ import wppIcon from "/public/wppIcon.png";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-16 bg-[#C53030] text-white">
+    <section id="contact" className="py-10 bg-[#C53030] text-white">
       <div className="container mx-auto px-6 text-center">
         <h3 className="text-3xl font-bold">Entre em Contato</h3>
         <p className="mt-4 text-lg">
