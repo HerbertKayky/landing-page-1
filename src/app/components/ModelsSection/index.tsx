@@ -1,4 +1,7 @@
-export function ModelsSection() {
+import { Model } from "@/utils/Models.type";
+import Image from "next/image";
+
+export default function Models({ models }: { models: Model[] }) {
   return (
     <section id="models" className="py-16 bg-gray-100">
       <div className="container mx-auto px-6">
@@ -9,99 +12,20 @@ export function ModelsSection() {
             perfeita para você.
           </p>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
-          {/* Model 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img
-              src="/pop.webp"
-              alt="Modelo Honda 1"
-              className="w-full h-48 object-cover  rounded-lg"
-            />
-            <h4 className="mt-4 text-2xl font-bold">Pop 110</h4>
-            <p className="mt-2 text-lg">
-              Uma moto versátil e robusta, perfeita para qualquer aventura.
-            </p>
-          </div>
-          {/* Model 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img
-              src="/biz.webp"
-              alt="Modelo Honda 2"
-              className="w-full h-48 object-cover rounded-lg"
-            />
-            <h4 className="mt-4 text-2xl font-bold">Biz 125</h4>
-            <p className="mt-2 text-lg">
-              Desempenho e economia para o seu dia a dia na cidade.
-            </p>
-          </div>
-          {/* Model 3 */}
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img
-              src="/fan.webp"
-              alt="Modelo Honda 3"
-              className="w-full h-48 object-cover rounded-lg"
-            />
-            <h4 className="mt-4 text-2xl font-bold">Fan 160</h4>
-            <p className="mt-2 text-lg">
-              Com design arrojado e força para encarar qualquer terreno.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img
-              src="/bros.webp"
-              alt="Modelo Honda 3"
-              className="w-full h-48 object-cover rounded-lg"
-            />
-            <h4 className="mt-4 text-2xl font-bold">Bros 160</h4>
-            <p className="mt-2 text-lg">
-              Com design arrojado e força para encarar qualquer terreno.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img
-              src="/xre.webp"
-              alt="Modelo Honda 3"
-              className="w-full h-48 object-cover rounded-lg"
-            />
-            <h4 className="mt-4 text-2xl font-bold">XRE 190</h4>
-            <p className="mt-2 text-lg">
-              Com design arrojado e força para encarar qualquer terreno.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img
-              src="/sahara.webp"
-              alt="Modelo Honda 3"
-              className="w-full h-48 object-cover rounded-lg"
-            />
-            <h4 className="mt-4 text-2xl font-bold">Sahara 300</h4>
-            <p className="mt-2 text-lg">
-              Com design arrojado e força para encarar qualquer terreno.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img
-              src="/twister.webp"
-              alt="Modelo Honda 3"
-              className="w-full h-48 object-cover rounded-lg"
-            />
-            <h4 className="mt-4 text-2xl font-bold">Twister 300F</h4>
-            <p className="mt-2 text-lg">
-              Com design arrojado e força para encarar qualquer terreno.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <img
-              src="/nc.webp"
-              alt="Modelo Honda 3"
-              className="w-full h-48 object-cover rounded-lg"
-            />
-            <h4 className="mt-4 text-2xl font-bold">NC 750X</h4>
-            <p className="mt-2 text-lg">
-              Com design arrojado e força para encarar qualquer terreno.
-            </p>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10">
+          {models.map((model) => (
+            <div key={model.id} className="bg-white p-6 rounded-lg shadow-lg">
+              <Image
+                src={model.image}
+                alt={`Modelo ${model.name}`}
+                width={500}
+                height={300}
+                className="w-full h-48 object-cover rounded-lg"
+              />
+              <h4 className="mt-4 text-2xl font-bold">{model.name}</h4>
+              <p className="mt-2 text-lg">{model.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

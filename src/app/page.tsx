@@ -4,7 +4,8 @@ import AboutSection from "./components/AboutSection";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import ContactSection from "./components/ContactSection";
-import { ModelsSection } from "./components/ModelsSection";
+import ModelsSection from "./components/ModelsSection";
+import ModelsServer from "./components/FetchModels";
 
 export default function Motorac() {
   return (
@@ -13,7 +14,7 @@ export default function Motorac() {
       <HeroSection />
       <AboutSection />
       <Testimonials />
-      <ModelsSection />
+      <ModelsServer />
       <ContactSection />
       <Footer />
     </>

@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "id": 1,
+      "name": "Pop 110",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/pop.webp"
+    },
+    {
+      "id": 2,
+      "name": "Biz 125",
+      "description": "Desempenho e economia para o seu dia a dia na cidade.",
+      "image": "/biz.webp"
+    },
+    {
+      "id": 3,
+      "name": "Fan 160",
+      "description": "Com design arrojado e força para encarar qualquer terreno.",
+      "image": "/fan.webp"
+    },
+    {
+      "id": 4,
+      "name": "Bros 160",
+      "description": "Com design arrojado e força para encarar qualquer terreno.",
+      "image": "/bros.webp"
+    },
+    {
+      "id": 5,
+      "name": "XRE 190",
+      "description": "Com design arrojado e força para encarar qualquer terreno.",
+      "image": "/xre.webp"
+    }
+  ]
+}
