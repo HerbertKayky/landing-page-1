@@ -3,4 +3,5 @@ export interface Model {
   name: string;
   description: string;
   image: string;
+  cilindradas: number
 }

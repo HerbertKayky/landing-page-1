@@ -4,7 +4,8 @@
       "id": 1,
       "name": "Pop 110",
       "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
-      "image": "/pop.webp"
+      "image": "/pop.webp",
+      "cilindradas": 109.5
     },
     {
       "id": 2,
