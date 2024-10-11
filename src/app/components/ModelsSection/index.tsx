@@ -60,7 +60,7 @@ export default function Models({ models }: { models: Model[] }) {
               <h4 className="text-2xl font-bold mb-4">{selectedModel.name}</h4>
               <p className="text-lg mb-4">{selectedModel.description}</p>
               <p className="text-lg mb-4">
-                Cilindradas: {selectedModel.cilindradas}
+                Cilindradas: {selectedModel.especificacoes?.Cilindrada || "N/A"}
               </p>
 
               <button

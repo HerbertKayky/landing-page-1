@@ -2,14 +2,27 @@
   "models": [
     {
       "id": 1,
-      "name": "Pop 110",
+      "name": "Pop 110i ES",
       "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
       "image": "/pop.webp",
-      "cilindradas": 109.5
+      "especificacoes": {
+        "Tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "Cilindrada": "109,5 cc",
+        "Potência Máxima": "8,43 cv a 7.250 rpm",
+        "Torque Máximo": "0,945 kgf.m a 5.000 rpm",
+        "Transmissão": "4 velocidades",
+        "Sistema de Partida": "Elétrica",
+        "Diâmetro x Curso": "47,0 x 63,1 mm",
+        "Relação de Compressão": "10,0 : 1",
+        "Sistema Alimentação": "Injeção Eletrônica PGM-FI",
+        "Combustível": "Gasolina",
+        "Capacidade": "4,2 Litros",
+        "Óleo do Motor": "1,0 Litros"
+      }
     },
     {
       "id": 2,
-      "name": "Biz 125",
+      "name": "Biz 125 EX",
       "description": "Desempenho e economia para o seu dia a dia na cidade.",
       "image": "/biz.webp"
     },
