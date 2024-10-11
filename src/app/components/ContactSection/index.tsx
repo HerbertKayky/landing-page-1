@@ -20,7 +20,7 @@ export default function ContactSection() {
             quality={100}
           />
           <Link
-            href="https://wa.me/SEU_NUMERO"
+            href="https://wa.me/5581993296809"
             className="text-quase text-xl font-medium"
           >
             Entre em contato

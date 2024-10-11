@@ -25,7 +25,7 @@ export default function AboutSection() {
               quality={100}
             />
             <Link
-              href="https://wa.me/SEU_NUMERO"
+              href="https://wa.me/5581993296809"
               className="text-xl font-medium text-white"
             >
               Entre em contato
