@@ -55,12 +55,84 @@ export default function Models({ models }: { models: Model[] }) {
                 alt={`Modelo ${selectedModel.name}`}
                 width={500}
                 height={300}
-                className="w-full h-96 object-cover rounded-lg"
+                className="w-full h-72 object-contain rounded-lg"
               />
               <h4 className="text-2xl font-bold mb-4">{selectedModel.name}</h4>
               <p className="text-lg mb-4">{selectedModel.description}</p>
-              <p className="text-lg mb-4">
-                Cilindradas: {selectedModel.especificacoes?.Cilindrada || "N/A"}
+              <h3 className="text-xl font-bold mb-4">
+                Especificações/Ficha Técnica
+              </h3>
+              <p className="text-lg mb-1 font-medium ">
+                Tipo:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.tipo}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Cilindradas:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.cilindrada}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Potência Máxima:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.potenciaMaxima}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Torque Máximo:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.torqueMaximo}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Tranmissão:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.transmissao}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Sistema de Partida:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.sistemaDePartida}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Diâmetro x Curso:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.diametroXCurso}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Relação de compressão:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.relacaoDeCompressao}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Sistema Alimentação:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.sistemaAlimentacao}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Combustível:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.combustivel}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Capacidade:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.capacidade}
+                </span>
+              </p>
+              <p className="text-lg mb-1 font-medium">
+                Óleo do Motor:{" "}
+                <span className="font-normal">
+                  {selectedModel.especificacoes?.oleoDoMotor}
+                </span>
               </p>
 
               <button

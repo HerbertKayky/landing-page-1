@@ -4,17 +4,17 @@ export interface Model {
   description: string;
   image: string;
   especificacoes: {
-    Tipo: string;
-    Cilindrada: string;
-    PotênciaMáxima: string;
-    TorqueMáximo: string;
-    Transmissão: string;
-    SistemaDePartida: string;
-    DiâmetroXCursos: string;
-    RelaçãoDeCompressão: string;
-    SistemaAlimentacao: string;
-    Combustível: string;
-    Capacidade: string;
-    ÓleoDoMotor: string;
+    tipo: string;
+    cilindrada: string;
+    potenciaMaxima: string;
+    torqueMaximo: string;
+    transmissao: string;
+    sistemaDePartida: string;
+    diametroXCurso: string;
+    relacaoDeCompressao: string;
+    sistemaAlimentacao: string;
+    combustivel: string;
+    capacidade: string;
+    oleoDoMotor: string;
   };
 }

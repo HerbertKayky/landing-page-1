@@ -4,45 +4,221 @@
       "id": 1,
       "name": "Pop 110i ES",
       "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
-      "image": "/pop.webp",
+      "image": "/motorcycles/Imagem15.png",
       "especificacoes": {
-        "Tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
-        "Cilindrada": "109,5 cc",
-        "Potência Máxima": "8,43 cv a 7.250 rpm",
-        "Torque Máximo": "0,945 kgf.m a 5.000 rpm",
-        "Transmissão": "4 velocidades",
-        "Sistema de Partida": "Elétrica",
-        "Diâmetro x Curso": "47,0 x 63,1 mm",
-        "Relação de Compressão": "10,0 : 1",
-        "Sistema Alimentação": "Injeção Eletrônica PGM-FI",
-        "Combustível": "Gasolina",
-        "Capacidade": "4,2 Litros",
-        "Óleo do Motor": "1,0 Litros"
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "109,5 cc",
+        "potenciaMaxima": "8,43 cv a 7.250 rpm",
+        "torqueMaximo": "0,945 kgf.m a 5.000 rpm",
+        "transmissao": "4 velocidades",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "47,0 x 63,1 mm",
+        "relacaoDeCompressao": "10,0 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina",
+        "capacidade": "4,2 Litros",
+        "oleoDoMotor": "1,0 Litros"
       }
     },
     {
       "id": 2,
-      "name": "Biz 125 EX",
-      "description": "Desempenho e economia para o seu dia a dia na cidade.",
-      "image": "/biz.webp"
+      "name": "Pop 110i + 10",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/Imagem14.png",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "109,5 cc",
+        "potenciaMaxima": "8,43 cv a 7.250 rpm",
+        "torqueMaximo": "0,945 kgf.m a 5.000 rpm",
+        "transmissao": "4 velocidades",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "47,0 x 63,1 mm",
+        "relacaoDeCompressao": "10,0 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina",
+        "capacidade": "4,2 Litros",
+        "oleoDoMotor": "1,0 Litros"
+      }
     },
     {
       "id": 3,
-      "name": "Fan 160",
-      "description": "Com design arrojado e força para encarar qualquer terreno.",
-      "image": "/fan.webp"
+      "name": "Biz 125 ES",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/imagem-home-honda-biz-125-es-lateral-vermelho.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "109,5 cc",
+        "potenciaMaxima": "8,33 cv a 7.250 rpm",
+        "torqueMaximo": "0,89 kgf.m a 5.000 rpm",
+        "transmissao": "4 velocidades",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "50,0 x 55,6 mm",
+        "relacaoDeCompressao": "9,3 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina",
+        "capacidade": "5,1 Litros",
+        "oleoDoMotor": "1,0 Litros"
+      }
     },
     {
       "id": 4,
-      "name": "Bros 160",
-      "description": "Com design arrojado e força para encarar qualquer terreno.",
-      "image": "/bros.webp"
+      "name": "Elite 125",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/honda-elite-125-modulo-360-azul.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "123,9 cc",
+        "potenciaMaxima": "8,2 cv a 6.250 rpm",
+        "torqueMaximo": "1,06 kgf.m a 5.000 rpm",
+        "transmissao": "Tipo V - MATIC",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "50,0 x 63,1 mm",
+        "relacaoDeCompressao": "10,0 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina",
+        "capacidade": "5,3 Litros",
+        "oleoDoMotor": "0,75 Litros"
+      }
     },
     {
       "id": 5,
-      "name": "XRE 190",
-      "description": "Com design arrojado e força para encarar qualquer terreno.",
-      "image": "/xre.webp"
+      "name": "CG 160 Start",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/moto-honda-cg-160-start--prata-metálico_8.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "162,7 cc",
+        "potenciaMaxima": "14,9 cv a 8.000 rpm",
+        "torqueMaximo": "1,40 kgf.m a 7.000 rpm",
+        "transmissao": "5 velocidades",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "57,3 x 63,0 mm",
+        "relacaoDeCompressao": "9,5 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina",
+        "capacidade": "14,6 Litros",
+        "oleoDoMotor": "1,2 Litros"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Biz 125 EX",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/imagem-home-honda-biz-125-ex-lateral-azul.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "123,9 cc",
+        "potenciaMaxima": "9,53 CV (7,01 kW) a 7.500 rpm - Gasolina / Etanol",
+        "torqueMaximo": "1,03 kgf.m (10,1 N.m) a 6000 rpm - Gasolina / Etanol",
+        "transmissao": "4 velocidades",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "50,0 x 63,12 mm",
+        "relacaoDeCompressao": "10,0 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina / Etanol",
+        "capacidade": "5 Litros",
+        "oleoDoMotor": "1,1 Litros (0,90 p/troca)"
+      }
+    },
+    {
+      "id": 7,
+      "name": "CG 160 Fan",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/fan-lateral_0.png.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "162,7 cc",
+        "potenciaMaxima": "14,9 cv a 8.000 rpm (Gasolina) / 15,1 cv a 8.000 rpm (Etanol)",
+        "torqueMaximo": "1,40 kgf.m a 7.000 rpm (Gasolina) / 1,54 kgf.m a 7.000 rpm (Etanol)",
+        "transmissao": "5 velocidades",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "57,3 x 63,0 mm",
+        "relacaoDeCompressao": "9,5 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina / Etanol",
+        "capacidade": "16,1 Litros",
+        "oleoDoMotor": "1,2 Litros"
+      }
+    },
+    {
+      "id": 8,
+      "name": "CG 160 Titan",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/moto-honda-cg-160-titan-azul-perolizado_3.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "162,7 cc",
+        "potenciaMaxima": "14,9 cv a 8.000 rpm (Gasolina) / 15,1 cv a 8.000 rpm (Etanol)",
+        "torqueMaximo": "1,40 kgf.m a 7.000 rpm (Gasolina) / 1,54 kgf.m a 7.000 rpm (Etanol)",
+        "transmissao": "5 velocidades",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "57,3 x 63,0 mm",
+        "relacaoDeCompressao": "9,5 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina / Etanol",
+        "capacidade": "16,1 Litros",
+        "oleoDoMotor": "1,2 Litros"
+      }
+    },
+    {
+      "id": 9,
+      "name": "PCX",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/Cor-PCX-Cinza_lateral.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a liquido",
+        "cilindrada": "156,9 cc",
+        "potenciaMaxima": "16 cv a 8.500 rpm",
+        "torqueMaximo": "1,5 kgf.m a 6.500 rpm",
+        "transmissao": "Automática, do tipo V - MATIC",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "60,0 x 55,5 mm",
+        "relacaodeCompressao": "12,0 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina",
+        "capacidade": "8 Litros",
+        "oleoDoMotor": "0,9 Litros"
+      }
+    },
+    {
+      "id": 10,
+      "name": "PCX Abs",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/Cor-PCX-BRANCO_lateral.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a liquido",
+        "cilindrada": "156,9 cc",
+        "potenciaMaxima": "16 cv a 8.500 rpm",
+        "torqueMaximo": "1,5 kgf.m a 6.500 rpm",
+        "transmissao": "Automática, do tipo V - MATIC",
+        "sistemaDePartida": "Elétrica",
+        "diametroXCurso": "60,0 x 55,5 mm",
+        "relacaoDeCompressao": "12,0 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina",
+        "capacidade": "8 Litros",
+        "oleoDoMotor": "0,9 Litros"
+      }
+    },
+    {
+      "id": 11,
+      "name": "NXR 160 Bros CBS",
+      "description": "Uma moto versátil e robusta, perfeita para qualquer aventura.",
+      "image": "/motorcycles/imagem-home-honda-nxr-bros-160-cbs-lateral-vermelho.webp",
+      "especificacoes": {
+        "tipo": "OHC, Monocilíndrico, 4 tempos, arrefecido a ar",
+        "cilindrada": "162,7 cc",
+        "potenciaMaxima": "14,2 CV (10,4 KW) a 8.000 rpm (Gasolina) / 14,3 CV (10,5 KW) a 8.000 rpm (Etanol)",
+        "torqueMaximo": "1,46 kgf.m a 5.500 rpm (Gasolina) / 1,60 kgf.m a 5.500 rpm (Etanol)",
+        "transmissao": "5 Velocidades",
+        "sistema de Partida": "Elétrica",
+        "diametroXCurso": "57,300 x 63,096 mm",
+        "relacaoDeCompressao": "9,5 : 1",
+        "sistemaAlimentacao": "Injeção Eletrônica PGM-FI",
+        "combustivel": "Gasolina / Etanol",
+        "capacidade": "12,0 Litros",
+        "oleoDoMotor": "1,2 Litros (1,0 Litro p/troca)"
+      }
     }
   ]
 }
