@@ -31,7 +31,7 @@ export default function Models({ models }: { models: Model[] }) {
           {models.map((model) => (
             <div
               key={model.id}
-              className="bg-white p-6 rounded-lg shadow-lg cursor-pointer"
+              className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-red-600 cursor-pointer"
               onClick={() => openModal(model)}
             >
               <Image
