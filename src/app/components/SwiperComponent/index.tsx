@@ -9,9 +9,53 @@ import { Pagination, Navigation } from "swiper/modules";
 
 const SwiperComponent = () => {
   const clients = [
-    { photo: "1.webp", quote: "Excelente atendimento e qualidade nas motos!" },
-    { photo: "2.webp", quote: "Minha Honda é incrível, estou muito feliz!" },
-    { photo: "3.webp", quote: "A melhor escolha que fiz foi comprar aqui!" },
+    {
+      photo: "1.webp",
+      quote: "A experiência foi incrível, a moto dos meus sonhos!",
+    },
+    {
+      photo: "2.webp",
+      quote:
+        "Estou muito satisfeita com minha nova Honda, superou minhas expectativas!",
+    },
+    {
+      photo: "3.webp",
+      quote: "Comprei minha Honda aqui e não poderia estar mais feliz!",
+    },
+    {
+      photo: "4.webp",
+      quote: "O Gustavo me ajudou a encontrar a moto perfeita para mim!",
+    },
+    {
+      photo: "5.webp",
+      quote: "Moto excelente e atendimento impecável. Recomendo!",
+    },
+    {
+      photo: "6.webp",
+      quote: "A compra da minha Honda foi rápida e tranquila. Adorei!",
+    },
+    {
+      photo: "7.webp",
+      quote:
+        "Achei a moto perfeita para minhas aventuras. Obrigada pelo atendimento!",
+    },
+    {
+      photo: "8.webp",
+      quote: "Atendimento de primeira e uma moto que faz a diferença!",
+    },
+    {
+      photo: "9.webp",
+      quote: "Foi a melhor decisão! Minha Honda está rodando perfeitamente!",
+    },
+    {
+      photo: "10.webp",
+      quote: "Confiança total no vendedor e no produto. Honda é Honda!",
+    },
+    {
+      photo: "11.webp",
+      quote:
+        "A moto dos meus sonhos e um atendimento que fez toda a diferença!",
+    },
   ];
 
   return (

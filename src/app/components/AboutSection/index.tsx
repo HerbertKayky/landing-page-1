@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import wppIcon from "/public/wppIcon.png";
+import profilePicture from "/public/profile.jpg";
 
 export default function AboutSection() {
   return (
@@ -34,9 +35,9 @@ export default function AboutSection() {
         </div>
 
         <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
-          <img
-            src="/man-taking-selfie.jpg"
-            alt="Foto do vendedor"
+          <Image
+            src={profilePicture}
+            alt="Foto de perfil"
             className="rounded-full w-48 h-48 object-cover shadow-lg"
           />
         </div>
